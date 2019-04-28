@@ -19,7 +19,7 @@ A template for cmds-generator.
   You also need to install webpack and webpack-dev-server globally because of this scaffold using webpack and webpack-dev-server to build and develop project.
 
   ```
-  npm install webpack@4.29 webpack-dev-server -g
+  npm install webpack@4.29 webpack-dev-server webpack-cli -g
   ```
 
 * Initialize structure
