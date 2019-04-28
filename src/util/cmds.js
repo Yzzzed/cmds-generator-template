@@ -39,7 +39,7 @@ const _cmds = {
                 //没有登录状态，需要强制登录
 
                 else if(res[stConf.status] === stConf.interruptStatus){
-                    _this.doLogin()
+                    _this.goHome()
                 }
 
                 //请求数据错误
