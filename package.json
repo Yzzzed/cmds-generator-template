@@ -1,0 +1,43 @@
+{
+  "name": "cmds-generator-template",
+  "version": "1.0.0",
+  "description": "A template for cmds-generator",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --inline --colors --open chrome",
+    "dist": "set WEBPACK_ENV=online&& webpack -p",
+    "build": "webpack -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yzzzed/cmds-generator-template.git"
+  },
+  "author": "Yzed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yzzzed/cmds-generator-template/issues"
+  },
+  "homepage": "https://github.com/Yzzzed/cmds-generator-template#readme"
+}
